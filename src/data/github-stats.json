@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "followers": 4,
+    "totalStars": 4,
+    "totalCommits": 118,
+    "totalPRs": 39,
+    "totalIssues": 0,
+    "url": "https://github.com/Bouhzial"
+  },
+  "languages": [
+    {
+      "name": "TypeScript",
+      "percentage": 47.898816769252754
+    },
+    {
+      "name": "Python",
+      "percentage": 36.53717328917778
+    },
+    {
+      "name": "HTML",
+      "percentage": 10.897517400210594
+    },
+    {
+      "name": "JavaScript",
+      "percentage": 2.0226461461634115
+    },
+    {
+      "name": "Shell",
+      "percentage": 0.833633124547233
+    },
+    {
+      "name": "CSS",
+      "percentage": 0.7647714933873451
+    },
+    {
+      "name": "Java",
+      "percentage": 0.6665385367231917
+    },
+    {
+      "name": "SCSS",
+      "percentage": 0.2616479153422466
+    }
+  ],
+  "weekdays": [
+    {
+      "name": "Mon",
+      "percentage": 6.451612903225806
+    },
+    {
+      "name": "Tue",
+      "percentage": 6.451612903225806
+    },
+    {
+      "name": "Wed",
+      "percentage": 6.451612903225806
+    },
+    {
+      "name": "Thu",
+      "percentage": 6.451612903225806
+    },
+    {
+      "name": "Fri",
+      "percentage": 3.225806451612903
+    },
+    {
+      "name": "Sat",
+      "percentage": 3.225806451612903
+    },
+    {
+      "name": "Sun",
+      "percentage": 67.74193548387096
+    }
+  ],
+  "lastUpdated": "2026-02-09T19:03:09.392Z"
+}

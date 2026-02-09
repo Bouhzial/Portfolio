@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  /* Dark theme colors (default) */
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #2a2a2a;
+  --color-bg-card: #2d2d2d;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #a0a0a0;
+  --color-accent: #d4a574;
+  --color-accent-hover: #e0b584;
+  --color-border: #3d3d3d;
+
+  /* Activity colors */
+  --color-activity-green: #4ade80;
+  --color-activity-blue: #60a5fa;
+  --color-activity-purple: #a78bfa;
+  --color-activity-orange: #fb923c;
+  --color-activity-pink: #f472b6;
+  --color-activity-cyan: #22d3d8;
+  --color-activity-yellow: #facc15;
+}
+
+/* Light theme */
+.light {
+  --color-bg-primary: #f5f0e8;
+  --color-bg-secondary: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-accent: #d4a574;
+  --color-accent-hover: #c49564;
+  --color-border: #e0d8cc;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
