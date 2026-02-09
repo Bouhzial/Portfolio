@@ -13,12 +13,6 @@ interface WeatherData {
     sunset: number;
 }
 
-interface ForecastDay {
-    date: string;
-    temp: number;
-    icon: string;
-}
-
 const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 const CITY = 'Lyon';
 const COUNTRY = 'FR';
@@ -34,7 +28,7 @@ export function WeatherWidget() {
         try {
             // Fetch current weather
             const currentRes = await fetch(
-                `https://api.openweathermap.org/data/2.5/weather?q=${CITY},${COUNTRY}&appid=${API_KEY}&units=metric`
+                `https://api.openweathermap.org/data/2.5/weather?q=${CITY},${COUNTRY}&appid=${API_KEY}&units=metric&lang=${language}`
             );
 
             if (currentRes.status === 401) {

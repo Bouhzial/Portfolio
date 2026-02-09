@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { FaExternalLinkAlt, FaFolder, FaCode } from 'react-icons/fa';
 
 interface Project {

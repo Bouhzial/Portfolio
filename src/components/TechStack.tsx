@@ -21,7 +21,7 @@ import {
     SiPandas,
     SiScikitlearn
 } from 'react-icons/si';
-import { FaTools, FaGlobe, FaBicycle, FaFlagCheckered, FaChessKnight, FaGamepad, FaHeart, FaChartLine, FaChalkboardTeacher } from 'react-icons/fa';
+import { FaTools, FaGlobe, FaBicycle, FaFlagCheckered, FaChessKnight, FaGamepad, FaHeart, FaChartLine } from 'react-icons/fa';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const technologies = [
